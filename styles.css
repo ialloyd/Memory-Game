@@ -17,7 +17,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 35%;
+    width: 40%;
     gap: 10px;
 }
 
@@ -32,24 +32,12 @@ body {
 
 }
 
-@media (max-width: 600px) {
-    .container {
-        width: 100%;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
+@media screen and (max-width:920px) {
 
+    .container>div {
 
-@media (min-width: 600px) and (max-width: 900px) {
-    .container {
-        width: 70%;
-        grid-template-columns: repeat(3, 1fr);
+        height: 10vh;
+        font-size: 25px;
     }
-}
 
-@media (min-width: 900px) {
-    .container {
-        width: 50%;
-        grid-template-columns: repeat(4, 1fr);
-    }
 }
