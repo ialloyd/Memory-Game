@@ -17,7 +17,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 35%;
+    width: 45%;
     gap: 10px;
 }
 
@@ -36,12 +36,12 @@ body {
 
     .container>div {
 
-        height: 10vh;
+        height: 15vh;
         font-size: 25px;
     }
     .container{
 
-        width:70%;
+        width:90%
     }
 
 }
