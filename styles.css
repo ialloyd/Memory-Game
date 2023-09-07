@@ -10,14 +10,16 @@ body {
     display: grid;
     place-items: center;
     height: 100vh;
-    background-color: black
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
 }
 
 
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 45%;
+    width: 35%;
     gap: 10px;
 }
 
@@ -29,6 +31,7 @@ body {
     background-image: conic-gradient(red, yellow, green, blue, black);
     font-size: 50px;
     cursor: pointer;
+    border-radius: 15px;
 
 }
 
@@ -37,11 +40,18 @@ body {
     .container>div {
 
         height: 15vh;
-        font-size: 25px;
-    }
-    .container{
-
-        width:90%
+        font-size: 30px;
     }
 
+    .container {
+
+        width: 90%
+    }
+
+}
+
+h1 {
+ 
+    color:whitesmoke;
+    margin-bottom: 15px;
 }
